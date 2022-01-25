@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Italianno&family=Maitree:wght@300&display=swap");
+
 nav {
     background-color: #2a2d3e;
     display: flex;
     justify-content: space-between;
+    font-family: "Riffic", cursive;
+    font-size: 1.2em;
+}
 
     .logo_nav {
             height: 50px;
@@ -26,11 +31,10 @@ nav {
             }
         }
                     
-    .onglet_nav ul li a{
+    .menu_nav ul li a{
     color: #ffffff;
     display: flex;
     justify-content: space-between;
     list-style: none;    
 
     }
-}

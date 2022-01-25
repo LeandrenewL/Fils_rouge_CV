@@ -1,33 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Italianno&family=Maitree:wght@300&display=swap");
 nav {
   background-color: #2a2d3e;
   display: flex;
   justify-content: space-between;
+  font-family: "Riffic", cursive;
+  font-size: 1.2em;
 }
-nav .logo_nav {
+
+.logo_nav {
   height: 50px;
   width: 50px;
   padding: 5px;
   padding-left: 5px;
   margin: 5px;
 }
-nav .logo_nav img {
+.logo_nav img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
 }
-nav .photo_nav {
+
+.photo_nav {
   height: 200px;
   width: 200px;
   padding: 5px;
   padding-left: 5px;
   margin: 5px;
 }
-nav .photo_nav img {
+.photo_nav img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
 }
-nav .onglet_nav ul li a {
+
+.menu_nav ul li a {
   color: #ffffff;
   display: flex;
   justify-content: space-between;
