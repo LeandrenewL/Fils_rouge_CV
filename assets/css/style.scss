@@ -1,23 +1,36 @@
-nav{
-background-color: #2A2D3E;
-display: flex;
-justify-content: space-around;
+nav {
+    background-color: #2a2d3e;
+    display: flex;
+    justify-content: space-between;
 
-        .logo_nav{
-                height: 50px; 
-                width: 50px;
-                padding: 5px;
-                padding-left: 5px;
-                margin: 5px;
+    .logo_nav {
+            height: 50px;
+            width: 50px;
+            padding: 5px;
+            padding-left: 5px;
+            margin: 5px;
+            img {
+                object-fit: cover;
+                height: 100%;
             }
-                img{
-                    object-fit: cover;
-                    height: 100%;
-        
-        .onglet_nav ul li a{
-            color: #FFFFFF;
-            display: flex;
-            list-style: none;
-        }   
+        }
+    .photo_nav {
+            height: 200px;
+            width: 200px;
+            padding: 5px;
+            padding-left: 5px;
+            margin: 5px;
+            img {
+                object-fit: cover;
+                height: 100%;
+            }
+        }
+                    
+    .onglet_nav ul li a{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;    
+
     }
 }

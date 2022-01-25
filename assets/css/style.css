@@ -1,7 +1,7 @@
 nav {
-  background-color: #2A2D3E;
+  background-color: #2a2d3e;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 nav .logo_nav {
   height: 50px;
@@ -10,13 +10,26 @@ nav .logo_nav {
   padding-left: 5px;
   margin: 5px;
 }
-nav img {
+nav .logo_nav img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
 }
-nav img .onglet_nav ul li a {
-  color: #FFFFFF;
+nav .photo_nav {
+  height: 200px;
+  width: 200px;
+  padding: 5px;
+  padding-left: 5px;
+  margin: 5px;
+}
+nav .photo_nav img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+nav .onglet_nav ul li a {
+  color: #ffffff;
   display: flex;
+  justify-content: space-between;
   list-style: none;
 }/*# sourceMappingURL=style.css.map */
