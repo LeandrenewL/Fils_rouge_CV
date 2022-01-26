@@ -4,6 +4,7 @@ nav {
     background-color: #2a2d3e;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     font-family: "Riffic", cursive;
     font-size: 1.2em;
 }
@@ -31,10 +32,11 @@ nav {
             }
         }
                     
-    .menu_nav ul li a{
+    .menu_nav ul{
     color: #ffffff;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     list-style: none;    
 
     }
