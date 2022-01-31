@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Italianno&family=Maitree:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Fredoka+One&family=Mochiy+Pop+P+One&family=Righteous&family=Staatliches&display=swap");
 nav {
   background-color: #2a2d3e;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  font-family: "Riffic", cursive;
-  font-size: 1.2em;
+  font-family: "Fredoka One", cursive;
+  font-size: 1.3em;
 }
 
 .logo_nav {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   padding: 5px;
   padding-left: 5px;
   margin: 5px;
@@ -22,8 +22,7 @@ nav {
 }
 
 .photo_nav {
-  height: 200px;
-  width: 200px;
+  height: 150px;
   padding: 5px;
   padding-left: 5px;
   margin: 5px;
@@ -34,10 +33,50 @@ nav {
   height: 100%;
 }
 
-.menu_nav ul {
-  color: #ffffff;
+.menu_nav {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   list-style: none;
+  align-items: center;
+}
+.menu_nav ul {
+  display: flex;
+  gap: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.menu_nav ul li {
+  list-style: none;
+}
+.menu_nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu_nav .reseaux_nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+  list-style: none;
+}
+.menu_nav .reseaux_nav ul {
+  display: flex;
+}
+.menu_nav .reseaux_nav ul li {
+  list-style: none;
+}
+.menu_nav .reseaux_nav ul li a {
+  color: #ffffff;
+}
+
+.header_deux {
+  background-color: #2a2d3ec9;
+  font-family: "Courgette", cursive;
+  font-size: 1.3em;
+  color: #ffffff;
+}
+
+.one_div {
+  background-color: #3E5393;
 }
