@@ -55,38 +55,6 @@ nav {
         }
     }
 }
-.header_deux {
-    background-color: #2a2d3ec9;
-    .deux_a {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        font-family: "Condiment", cursive;
-        font-size: 5em;
-
-        p {
-            color: #ffffff;
-            padding-left: 40px;
-            right: auto;
-        }
-        img {
-            width: 550px;
-            object-fit: cover;
-            height: 100%;
-            left: auto;
-        }
-    }
-    .deux_b {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        align-items: center;
-        font-family: "Fredoka One", cursive;
-        font-size: 1.2em;
-        color: #ffffff;
-        padding: 40px;
-    }
-}
 
 .reseaux_nav {
     display: flex;
@@ -111,6 +79,52 @@ nav {
     }
 }
 
+.header_deux {
+    background-image: url(https://images.pexels.com/photos/16516/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-position: center;
+    .deux_background {
+        background-color: #2a2d3ec9;
+        .deux_a {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            font-family: "Condiment", cursive;
+            font-size: 5em;
+
+            p {
+                color: #ffffff;
+                padding-left: 40px;
+                left: auto;
+            }
+            img {
+                width: 550px;
+                object-fit: cover;
+                height: 100%;
+                align-items: center;
+                padding: 40px;
+                right: auto;
+            }
+        }
+        .deux_b {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+            font-family: "Fredoka One", cursive;
+            font-size: 1.2em;
+            color: #ffffff;
+            padding: 40px;
+        }
+    }
+}
+
 .one_div {
     background-color: #3e5393;
+    padding: 40px;
+    font-family: "Fredoka One", cursive;
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
 }
