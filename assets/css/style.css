@@ -4,6 +4,7 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  align-items: center;
   font-family: "Fredoka One", cursive;
   font-size: 1.7em;
 }
@@ -12,7 +13,8 @@ nav {
   height: 70px;
   width: 70px;
   padding: 5px;
-  padding-left: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin: 5px;
 }
 .logo_nav img {
@@ -53,22 +55,6 @@ nav {
   color: #ffffff;
   text-decoration: none;
 }
-.menu_nav .reseaux_nav {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  text-align: center;
-  list-style: none;
-}
-.menu_nav .reseaux_nav ul {
-  display: flex;
-}
-.menu_nav .reseaux_nav ul li {
-  list-style: none;
-}
-.menu_nav .reseaux_nav ul li a {
-  color: #ffffff;
-}
 
 .header_deux {
   background-color: #2a2d3ec9;
@@ -81,6 +67,26 @@ nav {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
+}
+
+.reseaux_nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+.reseaux_nav ul {
+  display: flex;
+  gap: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.reseaux_nav ul li {
+  list-style: none;
+}
+.reseaux_nav ul li a {
+  color: #ffffff;
 }
 
 .one_div {

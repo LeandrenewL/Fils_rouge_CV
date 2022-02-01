@@ -4,6 +4,7 @@ nav {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
     font-family: "Fredoka One", cursive;
     font-size: 1.7em;
 }
@@ -12,7 +13,8 @@ nav {
     height: 70px;
     width: 70px;
     padding: 5px;
-    padding-left: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin: 5px;
     img {
         object-fit: cover;
@@ -53,25 +55,7 @@ nav {
         }
     }
 
-    .reseaux_nav {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        text-align: center;
-        list-style: none;
-
-        ul {
-            display: flex;
-
-            li {
-                list-style: none;
-
-                a {
-                    color: #ffffff;
-                }
-            }
-        }
-    }
+    
 }
 .header_deux {
     background-color: #2a2d3ec9;
@@ -83,6 +67,29 @@ nav {
         object-fit: cover;
         height: 100%;
 
+    }
+}
+
+.reseaux_nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+
+    ul {
+        display: flex;
+        gap: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        
+        li {
+            list-style: none;
+
+            a {
+                color: #ffffff;
+            }
+        }
     }
 }
 
