@@ -10,8 +10,8 @@ nav {
 }
 
 .logo_nav {
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
     padding: 5px;
     padding-left: 40px;
     padding-right: 40px;
@@ -54,19 +54,37 @@ nav {
             }
         }
     }
-
-    
 }
 .header_deux {
     background-color: #2a2d3ec9;
-    font-family: 'Condiment', cursive;
-    font-size: 2em;
-    color: #ffffff;
-    img {
-        width: 400px;
-        object-fit: cover;
-        height: 100%;
+    .deux_a {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        font-family: "Condiment", cursive;
+        font-size: 5em;
 
+        p {
+            color: #ffffff;
+            padding-left: 40px;
+            right: auto;
+        }
+        img {
+            width: 550px;
+            object-fit: cover;
+            height: 100%;
+            left: auto;
+        }
+    }
+    .deux_b {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        font-family: "Fredoka One", cursive;
+        font-size: 1.2em;
+        color: #ffffff;
+        padding: 40px;
     }
 }
 
@@ -82,7 +100,7 @@ nav {
         gap: 40px;
         padding-left: 40px;
         padding-right: 40px;
-        
+
         li {
             list-style: none;
 

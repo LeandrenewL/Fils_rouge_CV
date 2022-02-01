@@ -10,8 +10,8 @@ nav {
 }
 
 .logo_nav {
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
   padding: 5px;
   padding-left: 40px;
   padding-right: 40px;
@@ -58,15 +58,35 @@ nav {
 
 .header_deux {
   background-color: #2a2d3ec9;
-  font-family: "Condiment", cursive;
-  font-size: 2em;
-  color: #ffffff;
 }
-.header_deux img {
-  width: 400px;
+.header_deux .deux_a {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-family: "Condiment", cursive;
+  font-size: 5em;
+}
+.header_deux .deux_a p {
+  color: #ffffff;
+  padding-left: 40px;
+  right: auto;
+}
+.header_deux .deux_a img {
+  width: 550px;
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
+  left: auto;
+}
+.header_deux .deux_b {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Fredoka One", cursive;
+  font-size: 1.2em;
+  color: #ffffff;
+  padding: 40px;
 }
 
 .reseaux_nav {
@@ -91,4 +111,4 @@ nav {
 
 .one_div {
   background-color: #3e5393;
-}
+}/*# sourceMappingURL=style.css.map */
