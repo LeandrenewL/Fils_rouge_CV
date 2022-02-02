@@ -124,4 +124,8 @@ nav {
   color: #ffffff;
   padding: 40px;
   text-align: center;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.two_div {
+  background-color: #2F343A;
+}
